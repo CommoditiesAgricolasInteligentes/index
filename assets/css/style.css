@@ -419,6 +419,22 @@ section {
   padding: 2px 6px 0 0;
   color: #7cc576;
 }
+
+.about p {
+  font-size: 20px;
+}
+
+.about ul li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.about ul i {
+  font-size: 24px;
+  padding: 2px 6px 0 0;
+  color: #7cc576;
+}
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -507,7 +523,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us {
-  background: whitesmoke;
+  background: rgb(201, 201, 201);
   padding: 0;
 }
 .why-us .content {
@@ -1172,6 +1188,11 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+
+.faq {
+  background-color: #c5c5c5;
+}
+
 .faq .faq-list {
   padding: 0;
   list-style: none;
